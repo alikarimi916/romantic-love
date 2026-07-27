@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>❤️ برای عشق زندگی من ❤️</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+
+    <!-- فونت -->
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Three.js -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+
+    <!-- GSAP -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+</head>
+
+<body>
+
+    <!-- Canvas برای ستاره‌ها -->
+    <canvas id="stars"></canvas>
+
+    <!-- Canvas برای گلبرگ‌ها -->
+    <canvas id="petals"></canvas>
+
+    <!-- Canvas برای آتش‌بازی -->
+    <canvas id="fireworks"></canvas>
+
+    <!-- ماه -->
+    <div class="moon"></div>
+
+    <!-- مه -->
+    <div class="fog"></div>
+
+    <!-- قلب نورانی -->
+    <div class="heart3d">
+        ❤️
+    </div>
+
+    <!-- کارت اصلی -->
+    <main class="glass">
+
+        <h1 id="title">
+           قهر نکن زشت میشی!
+        </h1>
+
+        <p id="typing"></p>
+
+        <button id="openLetter">
+            💌نامه ای از طرف من
+        </button>
+
+        <div id="letter">
+
+            <h2>برای تو...</h2>
+
+            <p>
+
+یه زمانی یه آشنایی شانسی با من داشتی....علی
+آره، اخلاقم گاهی خراب بود، اعصابم هم بیشتر از اینترنت ایران قطع و وصل می‌شد! 😐😂
+ولی خواهشاً منو حذف نکن...
+هنوز آپدیت جدیدم نیومده، شاید نسخه بعدیم باگ‌هاش کمتر باشه! 🤣
+
+            </p>
+
+            <div class="signature">
+
+                همیشه در قلبم جای خواهی داشت...
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <!-- شمارنده عشق -->
+
+    <section class="loveCounter">
+
+        <h3>
+
+            ⏳ مدت زمان آشنایی مون تا الان
+
+        </h3>
+
+        <div id="counter">
+
+            00 روز
+            00 ساعت
+            00 دقیقه
+            00 ثانیه
+
+        </div>
+
+    </section>
+
+    <!-- موسیقی -->
+
+    <audio id="music" loop>
+
+        <source src="assets/music.mp3" type="audio/mpeg">
+
+    </audio>
+
+    <!-- اسکریپت‌ها -->
+
+    <script src="js/stars.js"></script>
+
+    <script src="js/petals.js"></script>
+
+
+    <script src="js/typewriter.js"></script>
+
+    <script src="js/music.js"></script>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
